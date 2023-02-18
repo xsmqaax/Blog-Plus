@@ -1,0 +1,77 @@
+html , body {
+    height: 100%;
+    margin: 0;
+    direction: rtl;
+    background-color: #F9F7F3;
+}
+
+:root {
+    --bs-body-font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.myNav {
+    border-bottom: 0.8px solid lightgrey;
+}
+
+.myLogo {
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.noto-font {
+    font-family: 'Noto Naskh Arabic', serif;
+}
+
+.full-page-container {
+    height: 100%;
+}
+
+.dark-ligh-mode {
+    width: 100px;
+    height: 10px;
+}
+
+.main-row {
+    height: 680px;
+}
+
+.right-nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav {
+    height: 387px;
+    width: 80px;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;    
+}
+
+
+
+.blogs-div {
+    height: 195px;
+    width: 920px;
+}
+
+.blogs-card {
+    background-color: #F9F7F3;
+
+}
+
+
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: lightgray;
+}
