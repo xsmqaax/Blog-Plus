@@ -1,0 +1,27 @@
+.my-newBlog-form{
+    height: 90%;
+    width: 860px;
+}
+
+.my-newBlog-form label {
+    font-size: 2rem;
+    font-family: 'Noto Naskh Arabic', serif;
+
+}
+
+.my-newBlog-form textarea {
+    height: 288px;
+}
+
+.btn-save , .btn-cancel {
+    width: 154px;
+    height: 46px;
+    border: 0.7px solid transparent;
+}
+
+.btn-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
