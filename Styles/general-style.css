@@ -3,7 +3,18 @@ html , body {
     margin: 0;
     direction: rtl;
     background-color: #F9F7F3;
+    transition: background 0.2s linear;
 }
+
+.white-color-text{
+    background-color: #F9F7F3;
+
+}
+
+body.dark {
+    background-color: #292c35;
+  }
+
 
 :root {
     --bs-body-font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -18,7 +29,48 @@ html , body {
     padding: 20px;
 }
 
+.dark-ligh-mode{
+    height: fit-content;
+    width: fit-content;
+}
 
+ul {
+    list-style: none;
+}
+
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 45px;
+    height: 21px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
 
 .full-page-container {
     height: 100%;
@@ -39,10 +91,29 @@ html , body {
     align-items: center;    
 }
 
-.nav {
-    height: 387px;
-    width: 80px;
+.navi {
+    height: 300px;
+    width: 70px;
+    border: 0.1px solid rgb(133, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.navi a {
+    width: 50px;
+    height:  50px;
+    margin: 10px 0 10px 0;
+    background-color: lightgrey;
+    color: black;
+}
+
+.add-btn {
+
+
+}
+
 
 
 .content-container {

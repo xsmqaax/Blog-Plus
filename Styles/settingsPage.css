@@ -1,0 +1,31 @@
+.settings-form {
+    height: 90%;
+    width: 860px;
+    position: relative;
+}
+
+.settings-form label {
+    font-size: 2rem;
+    font-family: 'Noto Naskh Arabic', serif;
+
+}
+
+
+.buttons-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-save , .btn-cancel {
+    width: 154px;
+    height: 46px;
+    border: 0.7px solid transparent;
+}
+
+.btn-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
