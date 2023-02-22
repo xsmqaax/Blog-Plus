@@ -89,12 +89,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;    
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 .navi {
     height: 300px;
     width: 70px;
-    border: 0.1px solid rgb(133, 132, 132);
+    border: 0.1px solid rgb(180, 177, 177);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,13 +110,6 @@ ul {
     background-color: lightgrey;
     color: black;
 }
-
-.add-btn {
-
-
-}
-
-
 
 .content-container {
     display: flex;

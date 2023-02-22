@@ -1,0 +1,9 @@
+.blog-del-btn {
+    border: none;
+    color: red;
+    border-radius: 4px;
+}
+
+.blog-del-btn:hover {
+    background-color: rgb(183, 186, 188);
+}
